@@ -29,7 +29,7 @@ public class Playlist {
         int hours = duration.toHoursPart();
         int min = duration.toMinutesPart();
         seconds=duration.toSecondsPart();
-        System.out.println(hours+" "+min+" "+seconds);
+        System.out.println(hours+"h "+min+"m "+seconds+"s");
        
     }
 
